@@ -1,5 +1,56 @@
+/*reset stylesheet*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/*tyling continues here..*/
+
+@import url('https://fonts.googleapis.com/css?family=Chewy|Fredoka+One&display=swap');
+
+body{
+  background-color: #eee;
+
+}
+
+
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
+
+ul{
+
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 15;
+  font-family: arial;
+  color: #1e1e1e;
+  padding: 0 20px;
+}
+
 h1{
-    color:midnightblue;
-    text-decoration: overline;
-    font-style: italic;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Chewy', cursive;
+    font-size: 25px;
+    line-height: 
+    color: black; 
+}
+
+
+
+p{
+line-height: 30px;
+font-size: 20px;
 }
