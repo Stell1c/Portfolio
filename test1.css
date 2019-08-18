@@ -170,15 +170,6 @@ header nav ul li a{
 
 
 .contact-banner h2{
-  font-family: 'Fredoka One', cursive;
-  font-size: 15px;
-  font-weight: 500;
-  color: #fff;
-  text-align: justify;
-}
-
-
-.contact-banner h2{
   padding-top: 10px;
   font-family: 'Fredoka One', cursive;
   font-size: 15px;
@@ -198,4 +189,116 @@ header nav ul li a{
 }
 
 
+@media only screen and (min-width: 768px)
+{
+  .header-name{
+    font-size: 30px;
+  }
 
+  header nav ul li a{ 
+    font-size: 20px;
+  }
+
+  .home-banner{
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .home-banner h1{
+  font-size: 35px;
+  }
+
+  .home-banner h2{
+    padding-top: 10px;
+  font-size: 20px;
+  }
+
+  .about-banner{
+    padding-top: 10px;
+  }
+  
+  .about-banner h1{
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  
+  .about-banner h2{
+    padding: 25px 0 0 15px;
+    font-size: 25px;
+  }
+  
+  .hobbies-banner{
+    padding-top: 25px;
+  }
+  
+  .hobbies-banner h1{
+    font-size: 27px;
+  }
+
+  .hobbies-banner h2{
+    padding-top: 20px;
+    font-size: 27px;
+  }
+  .contact-banner{
+    padding-top: 20px;
+  }
+  
+  .contact-banner h1{
+    font-size: 30px;
+  }
+  
+  .contact-banner h2{
+    padding: 15px 0 0 10px;
+    font-size: 20px;
+  }
+  
+  .contact-banner h3{
+    padding-top: 20px;
+    font-size: 27px;
+  }
+}
+
+
+@media only screen and (min-width: 1000px)
+{
+  .home-banner{
+    padding: 15px 0 150px 0;
+   
+  }
+
+  .home-banner h1{
+    font-size: 30px;
+  }
+
+  .home-banner h2{
+    padding: 0 150px 0 150px;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .about-banner h1{
+    color: indigo;
+  }
+
+  .about-banner h2{
+    padding: 10px 200px 0 225px;
+    font-size: 25px;
+    color: darkslategray;
+  }
+  
+  .hobbies-banner{
+    padding-top: 25px;
+    background-size: 45%;
+  }
+  
+  .contact-banner h2{
+    padding: 15px 0 0 200px;
+    font-size: 22px;
+  }
+  
+  .contact-banner h3{
+    padding-top: 350px;
+    font-size: 30px;
+    color: aliceblue;
+  }
+}
