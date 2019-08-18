@@ -6,90 +6,25 @@
   }
 
 
-
-
-/*
-
-
-@import url('https://fonts.googleapis.com/css?family=Chewy|Fredoka+One&display=swap');
-
-body{
-  background-color: #eee;
-
-}
-
-
-.wrapper {
-  margin:  0 auto ; 
-  width: 1100px;
-  background-color: aqua;
-}
-
-
-nav{
-  width: 100%;
-  height: 100px;
-  background-color: #fff;
-}
-
-
-ul{
-margin-left: 40 px;
-}
-
-
-ul li {
-  list-style: none;
-  display: inline-block;
-  float: left;
-  line-height: 100px;
-}
-
-
-ul li a {
-  display: block;
-  text-decoration: none;
-  font-size: 15;
-  font-family: arial;
-  color: #1e1e1e;
-  padding: 0 20px;
-}
-
-
-ul li a:hover {
-  color: red;
-}
-
-
-h1{
-    font-family: 'Fredoka One', cursive;
-    font-family: 'Chewy', cursive;
-    font-size: 25px;
-    color: black; 
-}
-
-
-p{
-line-height: 30px;
-font-size: 20px;
-}
-
-*/
-
 /*styling continues here..*/
 
 
 @import url('https://fonts.googleapis.com/css?family=Chewy|Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
 
 body {
   background-color: #f3f3f3;
 }
+
 
 header {
   background-color: #fff;
   width: 100%;
   height: 120px;
 }
+
 
 .header-name{
   font-family: 'Fredoka One', cursive;
@@ -122,10 +57,10 @@ header nav ul li a{
   font-family: 'Fredoka One', cursive;
   font-size: 15px;
   color: #111;
-}
+} 
 
 
-.page-banner{
+.home-banner{
   width: 100%;
   height: calc(100vh - 120px);
   background-image:  url('images/minimalism_2.jpg');
@@ -133,3 +68,134 @@ header nav ul li a{
   background-position: center;
   background-size: contain;
 }
+ 
+
+.home-banner h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  font-weight: 650;
+  color: #252F34;
+  text-align: center;
+}
+
+
+.home-banner h2{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
+  font-weight: 550;
+  color: #252F34;
+  text-align: center;
+}
+
+
+.about-banner{
+  padding-top: 10px;
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-color: #111;
+  background-image:  url('images/minimalism_1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+.about-banner h1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+
+.about-banner h2{
+  font-family: 'Fredoka One', cursive;
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+}
+
+
+.hobbies-banner{
+  padding-top: 20px;
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-color: #252F34;
+  background-image:  url('images/minimalism_guitar.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+.hobbies-banner h1{
+  font-family: 'Zhi Mang Xing', cursive;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+
+.hobbies-banner h2{
+  font-family: 'Zhi Mang Xing', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: aquamarine;
+  text-align: center;
+}
+
+
+.contact-banner{
+  padding-top: 20px;
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-color: teal;
+  background-image:  url('images/minimalism_code.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+.contact-banner h1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+
+.contact-banner h2{
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  text-align: justify;
+}
+
+
+.contact-banner h2{
+  padding-top: 10px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  font-weight: 500;
+  color: lightgreen;
+  text-align: justify;
+}
+
+
+.contact-banner h3{
+  padding-top: 15px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  font-weight: 650;
+  color: #111;
+  text-align: center;
+}
+
+
+
